@@ -119,3 +119,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Add DRF settings such as postgres the user app
+from fooapi.foo_api_settings import *
