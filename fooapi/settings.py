@@ -120,5 +120,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+<<<<<<< HEAD
 # Add DRF settings such as postgres the user app
 from fooapi.foo_api_settings import *
+=======
+from fooapi.foo_api_settings import *
+
+>>>>>>> 63bc29be35200884c5b1197117877b1229d58d5b
